@@ -1,0 +1,24 @@
+{
+  "name": "push_server",
+  "version": "1.0.0",
+  "description": "Web Push Server",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node_modules/nodemon/bin/nodemon.js server/",
+    "startClient": "node_modules/http-server/bin/http-server client/",
+    "vapid": "node_modules/web-push/src/cli.js generate-vapid-keys --json > server/vapid.json"
+  },
+  "keywords": [
+    "pwa",
+    "push-server"
+  ],
+  "author": "Craig Newton <newtondev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.0",
+    "node-storage": "0.0.7",
+    "nodemon": "^1.14.10",
+    "urlsafe-base64": "^1.0.0",
+    "web-push": "^3.2.5"
+  }
+}
