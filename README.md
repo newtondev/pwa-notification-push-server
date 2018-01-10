@@ -1,3 +1,3 @@
-# PWA Notification Server and Client
+# PWA Notification Push Server and Client
 
-Progressive web apps notification server and client example.
+Progressive web apps notification push server and client example.
